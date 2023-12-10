@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns:["image.tmdb.org"],
+    remotePatterns:[{
+
+      protocol: "https",
+      hostname: "image.tmdb.org",
+    }
+      
+    ],
+      
   }
 }
 

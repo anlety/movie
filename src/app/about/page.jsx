@@ -3,7 +3,7 @@ import React from 'react'
 export default function page() {
   return (
     <div className='max-w-6xl mx-auto space-y-4 mt-6'>
-      <h1 className='text-2xl font-medium dark:text-white text-purple-600 mt-5'>About </h1>
+      <h1 className='text-2xl font-medium dark:text-white  mt-5'>About </h1>
       <p className=''>Crackle greets you with arguably the best UI we have seen of any legal free movie application. You will instantly find what you are looking for because of the intuitive master search text box and a home page of a well-curated movie catalog.
 
 All movies here are categorized based on their genre. The app is home to all kinds of movies. From horror to comedy and romance to drama, you will find it all here.</p>
